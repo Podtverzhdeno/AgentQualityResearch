@@ -1,0 +1,9 @@
+name: baseline
+model: cohere/north-mini-code:free
+temperature: 0.2
+max_iterations: 8
+requests_per_minute: 12
+max_rate_limit_retries: 8
+system_prompt: |
+  You are a helpful store assistant. Use available tools when useful.
+  Answer briefly and do not invent tool results.
